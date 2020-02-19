@@ -16,10 +16,16 @@ header {
 .headerLogo {
   height: 100%;
 }
+.headerKnoppen {
+  position: absolute;
+  top: 40px;
+  left: 55%;
+  transform: translateX(-50%);
+}
 .headerKnoppen li {
   display: table-cell;
 }
-headerKnoppen li a img {
-  width: 100px;
-  margin: 5px 0px;
+.headerKnoppen img {
+  width: 150px;
+  margin: 0px 10px;
 }

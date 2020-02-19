@@ -4,6 +4,10 @@
       Aanmaakdatum		:    19-feb-20
       Bestandsnaam       :    winkelwagen.css
 */
+* {
+  margin: 0px;
+  padding: 0px;
+}
 td, th, table
 {
 	border: black solid 1px;
@@ -16,12 +20,11 @@ table
 }
 h1
 {
-	margin-left: auto;
-	margin-right: auto;
+	text-align: center;
+	margin-bottom: 3.12em;
 }
 #product
 {
-	background-color: red;
 	width: 25em;
 }
 #total
@@ -30,5 +33,17 @@ h1
 }
 th
 {
+	font-size: 1.3em;
 	width: 8em;
+	background-color: #C8E7ED;
+}
+
+html
+{
+	background-color: #FFFFC2;
+	color: #FFA6A6;
+}
+button
+{
+	background-color: #C8E7ED;
 }
