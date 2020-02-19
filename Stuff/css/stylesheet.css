@@ -50,3 +50,16 @@ hr{
     color: #FFA6A6;
 
 }
+
+.underContact
+{
+    position: relative;
+    top: 12em;
+}
+
+form
+{
+    position: relative;
+    top: 12em;
+    left:13em;
+}
