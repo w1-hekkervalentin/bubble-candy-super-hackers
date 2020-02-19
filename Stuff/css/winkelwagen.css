@@ -1,0 +1,11 @@
+/*
+      Auteur			:    Jonathan Minderhoud
+      Opdracht		     :    bubble candy
+      Aanmaakdatum		:    19-feb-20
+      Bestandsnaam       :    winkelwagen.css
+*/
+td, th, table
+{
+	border: black solid 1px;
+	border-collapse: collapse;
+}
