@@ -17,7 +17,7 @@ Bestandsnaam:	winkelWagen.html
 		<script src="script.js" defer></script>
           <script src="../jquery-3.3.1.js"></script>
 		<!-- link the css -->
-		<link rel="stylesheet" href="stylesheet.css">
+		<link rel="stylesheet" href="../Stuff/css/winkelwagen.css">
 		<!--title pagina-->
 		<title>
 			winkelwagen
@@ -32,9 +32,30 @@ Bestandsnaam:	winkelWagen.html
                <table>
                     <thead>
                          <tr>
-                              <th>product</th>
+                              <th id="product">product</th>
+                              <th>aantal</th>
+                              <th>prijs</th>
                          </tr>
                     </thead>
+                    <tbody>
+                         <tr>
+                              <td>zure matten 1 kilo</td>
+                              <td>3</td>
+                              <td>&euro;23.20</td>
+                         </tr>
+                         <tr>
+                              <td>chupa chupps (veel)</td>
+                              <td>100</td>
+                              <td>&euro;5.00</td>
+                         </tr>
+                    </tbody>
+                    <tfoot>
+                         <tr>
+                              <td id="total">totaal</td>
+                              <td>103</td>
+                              <td>&euro;523.20</td>
+                         </tr>
+                    </tfoot>
                </table>
 	    </main>
 	    <footer>

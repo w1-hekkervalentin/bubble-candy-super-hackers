@@ -1,3 +1,9 @@
+/*
+      Auteur               :    mohamad
+      Opdracht             :    bubble candy
+      Aanmaakdatum         :    19-feb-2020
+      Bestandsnaam         :    stylesheet.css
+*/
 * {
   margin: 0px;
   padding: 0px;
@@ -21,14 +27,15 @@
     display: block;
     width: 15%;
     height: auto;
-    margin: 10px 25px;
+    margin: 10px 38px;
     border-radius: 50%;
+    float: left;
 }
   
   .overlay {
     position: absolute;
-    bottom: 142px;
-    left: 25px;
+    bottom: 354px;
+    left: 38px;
     right: 0;
     background-color: #c8e7ed;
     overflow: hidden;
@@ -38,10 +45,26 @@
     max-height: 230px;
     border-radius: 50%;
 }
-  
-  .container:hover .overlay {
-    height: 100%;
+
+#over1{
+    left: 345px;
 }
+#over2{
+    left: 651px;
+}
+#over3{
+    left: 958px;
+}
+#over4{
+    left: 1264px;
+}
+  
+  /* .container:hover .overlay {
+    height: 100%;
+} */
+    .imgs:hover .overlay{
+        height:100%;
+    }
   
   .text {
     white-space: nowrap; 
@@ -86,4 +109,12 @@ hr{
     bottom: 80px;
 }
 
+<<<<<<< HEAD
    
+=======
+hr{
+    border: 1px solid;
+    color: #FFA6A6;
+
+}
+>>>>>>> 9f84ebc210f71a48532269efb9d081ca05f1fee8
