@@ -21,7 +21,6 @@ h1
 }
 #product
 {
-	background-color: red;
 	width: 25em;
 }
 #total
@@ -31,4 +30,10 @@ h1
 th
 {
 	width: 8em;
+}
+
+html
+{
+	background-color: FFFFC2;
+	color: FFA6A6;
 }
