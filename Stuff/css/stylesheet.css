@@ -2,4 +2,29 @@
   margin: 0px;
   padding: 0px;
 }
+
+.container{
+    background-color: #FFFFC2;
+    text-align: center;
+}
+
+.overons p{
+    color: #FFA6A6;
+    margin: 10px;
+    padding: 5px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.contact p{
+    color: #FFA6A6;
+}
+
+
+
+hr{
+    border: 1px solid;
+    color: #FFA6A6;
+
+}
    
