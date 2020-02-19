@@ -40,6 +40,10 @@ th
 
 html
 {
-	background-color: FFFFC2;
-	color: FFA6A6;
+	background-color: #FFFFC2;
+	color: #FFA6A6;
+}
+button
+{
+	background-color: #C8E7ED;
 }
