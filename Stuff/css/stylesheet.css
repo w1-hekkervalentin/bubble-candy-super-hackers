@@ -8,13 +8,34 @@
   margin: 0px;
   padding: 0px;
 }
+header {
+  width: 100%;
+  height: 150px;
+  background-color: #C8E7ED;
+}
+.headerLogo {
+  height: 100%;
+}
+.headerKnoppen {
+  position: absolute;
+  top: 40px;
+  left: 55%;
+  transform: translateX(-50%);
+}
+.headerKnoppen li {
+  display: table-cell;
+}
+.headerKnoppen img {
+  width: 150px;
+  margin: 0px 10px;
+}
 
 .container{
     background-color: #FFFFC2;
     text-align: center;
     height: 400px;
 }
-
+/* Over ons pagina */
 .overons p{
     color: #FFA6A6;
     margin: 10px;
@@ -22,7 +43,71 @@
     font-size: 14px;
     font-family: sans-serif;
 }
+/* images stijl binnen het overons pagina */
+.image {
+    display: block;
+    width: 15%;
+    height: auto;
+    margin: 10px 38px;
+    border-radius: 50%;
+    float: left;
+}
+  
+  .overlay {
+    position: absolute;
+    bottom: 354px;
+    left: 38px;
+    right: 0;
+    background-color: #c8e7ed;
+    overflow: hidden;
+    width: 15%;
+    height: 0;
+    transition: .7s ease;
+    max-height: 230px;
+    border-radius: 50%;
+}
 
+#over1{
+    left: 345px;
+}
+#over2{
+    left: 651px;
+}
+#over3{
+    left: 958px;
+}
+#over4{
+    left: 1264px;
+}
+  
+  /* .container:hover .overlay {
+    height: 100%;
+} */
+    .imgs:hover .overlay{
+        height:100%;
+    }
+  
+  .text {
+    white-space: nowrap; 
+    color: #FFA6A6;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+  /* images stijl */
+
+/* de lijk onder overonspagina */
+hr{
+    border: 1px solid;
+    color: #FFA6A6;
+
+}
+
+/* contact pagina */
 .contact p{
     color: #FFA6A6;
     text-align: left;
@@ -34,7 +119,7 @@
     font-size: 14px;
     font-family: sans-serif;
 }
-
+/* border binnen het contact pagina mat fofo */
 .border{
     border: 3px solid #FFA6A6;
     width: 500px;
@@ -45,8 +130,12 @@
     bottom: 80px;
 }
 
+<<<<<<< HEAD
+   
+=======
 hr{
     border: 1px solid;
     color: #FFA6A6;
 
 }
+>>>>>>> 9f84ebc210f71a48532269efb9d081ca05f1fee8
