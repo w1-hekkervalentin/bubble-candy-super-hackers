@@ -48,36 +48,36 @@ header {
     display: block;
     width: 15%;
     height: auto;
-    margin: 10px 38px;
+    margin: 0.5% 2.4%;
     border-radius: 50%;
     float: left;
 }
   
   .overlay {
     position: absolute;
-    bottom: 205px;
-    left: 38px;
+    bottom: 27.4%;
+    left: 2.4%;
     right: 0;
     background-color: #c8e7ed;
     overflow: hidden;
     width: 15%;
     height: 0;
     transition: .7s ease;
-    max-height: 230px;
+    max-height: 31%;
     border-radius: 50%;
 }
 
 #over1{
-    left: 345px;
+    left: 22.2%;
 }
 #over2{
-    left: 651px;
+    left: 42%;
 }
 #over3{
-    left: 958px;
+    left: 61.8%;
 }
 #over4{
-    left: 1264px;
+    left: 81.6%;
 }
   
   /* .container:hover .overlay {
