@@ -55,7 +55,6 @@ header {
   
   .overlay {
     position: absolute;
-    bottom: 27.4%;
     left: 2.4%;
     right: 0;
     background-color: #c8e7ed;
@@ -63,7 +62,7 @@ header {
     width: 15%;
     height: 0;
     transition: .7s ease;
-    max-height: 31%;
+    max-height: 35%;
     border-radius: 50%;
 }
 
