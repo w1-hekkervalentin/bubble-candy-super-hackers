@@ -87,16 +87,22 @@ header {
         height:100%;
     }
   
-  .text {
+.text {
     white-space: nowrap; 
     color: #FFA6A6;
-    font-size: 20px;
+    font-size: 25px;
     position: absolute;
     overflow: hidden;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+}
+
+ h2{
+  position: relative;
+  top: 50%;
+  font-size: 20px;
 }
   /* images stijl */
 
