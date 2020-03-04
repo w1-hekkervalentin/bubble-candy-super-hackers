@@ -177,6 +177,9 @@ form
   font-size: 20px;
 }
 /* Stijl icons */
+.icons{
+  height: 0px;
+}
 
 .fa {
   padding: 20px;
