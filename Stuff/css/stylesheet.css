@@ -52,7 +52,7 @@ header {
     border-radius: 50%;
     float: left;
 }
-  
+
 .overlay {
     position: absolute;
     left: 2.4%;
@@ -78,16 +78,16 @@ header {
 #over4{
     left: 81.6%;
 }
-  
+
   /* .container:hover .overlay {
     height: 100%;
 } */
     .imgs:hover .overlay{
         height:240px;
     }
-  
+
 .text {
-    white-space: nowrap; 
+    white-space: nowrap;
     color: #FFA6A6;
     font-size: 25px;
     position: absolute;
@@ -168,7 +168,6 @@ form
     width: 15%;
     margin: 10px 36px;
     background-color: #FFFFC2;
-    cursor: pointer;
     padding: 4px;
 }
 
@@ -222,5 +221,3 @@ form
   background: #bb0000;
   color: white;
 }
-
-
