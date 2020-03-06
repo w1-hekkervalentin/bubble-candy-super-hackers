@@ -47,3 +47,13 @@ button
 {
 	background-color: #C8E7ED;
 }
+main
+{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+main button
+{
+	margin-left: calc(100% - 61px);
+}
